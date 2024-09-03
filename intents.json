@@ -1,0 +1,337 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey there! Welcome to SafeBeach :-)",
+        "Hello, thanks for visiting SafeBeach!",
+        "Hi there, how can I assist you with your beach plans?",
+        "Hi! I'm here to help you find the safest beaches."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later! Enjoy your beach day!",
+        "Have a wonderful day at the beach!",
+        "Goodbye! Come back for more beach safety tips!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": [
+        "Happy to help! Stay safe at the beach!",
+        "Anytime! Enjoy your time by the water!",
+        "My pleasure! If you have more questions, just ask!"
+      ]
+    },
+    {
+      "tag": "safest_beaches",
+      "patterns": [
+        "What are the safest beaches near me?",
+        "Which beaches are the safest in my area?"
+      ],
+      "responses": [
+        "I can help you find the safest beaches nearby. Please share your location.",
+        "To find the safest beaches near you, please provide your location or allow me to access your device's location."
+      ]
+    },
+    {
+      "tag": "determine_safety",
+      "patterns": [
+        "How do you determine beach safety?",
+        "What factors are considered when assessing beach safety?"
+      ],
+      "responses": [
+        "We assess safety based on wave heights, water quality, and weather conditions.",
+        "Beach safety is determined by evaluating factors such as wave heights, currents, water quality, and weather conditions."
+      ]
+    },
+    {
+      "tag": "warning_response",
+      "patterns": [
+        "What should I do if there's a warning at the beach?",
+        "How should I respond to a beach warning?"
+      ],
+      "responses": [
+        "If there's a warning, it's best to avoid swimming and follow any posted guidelines.",
+        "In case of a beach warning, the safest action is to refrain from swimming and adhere to the instructions provided."
+      ]
+    },
+    {
+      "tag": "lifeguard_info",
+      "patterns": [
+        "Are there lifeguards at the beach?",
+        "Which beaches have lifeguards on duty?"
+      ],
+      "responses": [
+        "You can check the app for information on lifeguard presence at specific beaches.",
+        "To find out if a particular beach has lifeguards, please search for it in the app or provide the beach name."
+      ]
+    },
+    {
+      "tag": "current_conditions",
+      "patterns": [
+        "What are the current conditions at the beach?",
+        "Can you tell me the current beach conditions?"
+      ],
+      "responses": [
+        "Please hold on while I fetch the current conditions for your nearest beach.",
+        "One moment while I retrieve the latest information on the current beach conditions in your area."
+      ]
+    },
+    {
+      "tag": "swimming_suitability",
+      "patterns": [
+        "How do I know if a beach is suitable for swimming?",
+        "What makes a beach suitable for recreational activities?"
+      ],
+      "responses": [
+        "Beach suitability is determined by factors like wave heights, currents, and water quality.",
+        "To assess if a beach is suitable for swimming, we consider the wave conditions, presence of rip currents, and water quality."
+      ]
+    },
+    {
+      "tag": "beach_precautions",
+      "patterns": [
+        "What precautions should I take when visiting a beach?",
+        "How can I stay safe at the beach?"
+      ],
+      "responses": [
+        "Always check the app for safety status before visiting. Bring sunscreen, stay hydrated, and be aware of your surroundings.",
+        "Some key precautions to take at the beach include checking the safety status, applying sunscreen, staying hydrated, and being mindful of your surroundings."
+      ]
+    },
+    {
+      "tag": "report_unsafe_conditions",
+      "patterns": [
+        "Can I report unsafe conditions at a beach?",
+        "How do I report any hazardous conditions at a beach?"
+      ],
+      "responses": [
+        "Yes, you can report any unsafe conditions you observe through the app.",
+        "If you encounter any hazardous or unsafe conditions at a beach, you can report them through the app for further investigation."
+      ]
+    },
+    {
+      "tag": "water_quality_assessment",
+      "patterns": [
+        "How is water quality assessed?",
+        "What methods are used to evaluate beach water quality?"
+      ],
+      "responses": [
+        "Water quality is assessed based on pollution levels and harmful bacteria presence.",
+        "Beach water quality is determined by testing for pollutants and the presence of harmful bacteria that could pose risks to swimmers."
+      ]
+    },
+    {
+      "tag": "water_quality_factors",
+      "patterns": [
+        "What affects water quality at the beach?",
+        "Which factors can impact the water quality at a beach?"
+      ],
+      "responses": [
+        "Factors like nearby waste disposal and weather can affect water quality.",
+        "Water quality can be influenced by factors such as waste discharge from nearby sources and changes in weather conditions."
+      ]
+    },
+    {
+      "tag": "water_safety",
+      "patterns": [
+        "Is the water safe for swimming?",
+        "How do I know if the water is safe to swim in?"
+      ],
+      "responses": [
+        "You can check the app for real-time water quality updates for specific beaches.",
+        "To determine if the water is safe for swimming, please refer to the real-time water quality information provided in the app for your chosen beach."
+      ]
+    },
+    {
+      "tag": "water_quality_testing",
+      "patterns": [
+        "How often is water quality tested?",
+        "What is the frequency of water quality testing at beaches?"
+      ],
+      "responses": [
+        "Water quality is tested regularly, and results are updated in the app.",
+        "Beach water quality is tested on a regular basis, and the latest test results are available in the app."
+      ]
+    },
+    {
+      "tag": "poor_water_quality_signs",
+      "patterns": [
+        "What are some signs of poor water quality?",
+        "How can I identify poor water quality at a beach?"
+      ],
+      "responses": [
+        "Discolored water, foul odors, and presence of debris may indicate poor water quality.",
+        "Visible signs of poor water quality include discoloration, unusual odors, and the presence of debris or waste in the water."
+      ]
+    },
+    {
+      "tag": "swimming_in_polluted_water",
+      "patterns": [
+        "Can I get sick from swimming in polluted water?",
+        "What are the health risks of swimming in contaminated water?"
+      ],
+      "responses": [
+        "Yes, swimming in polluted water can lead to skin rashes, stomach illness, and other health issues.",
+        "Swimming in water with poor quality or high levels of pollution can potentially cause skin irritation, stomach problems, and other health complications."
+      ]
+    },
+    {
+      "tag": "current_weather_conditions",
+      "patterns": [
+        "What are the current weather conditions at the beach?",
+        "Can you provide the current weather information for the beach?"
+      ],
+      "responses": [
+        "Current weather conditions can be found in the app. Please share your beach location.",
+        "To access the current weather conditions at a specific beach, please provide the beach name or your location."
+      ]
+    },
+    {
+      "tag": "wind_impact",
+      "patterns": [
+        "How does wind affect beach safety?",
+        "What are the risks of high winds at the beach?"
+      ],
+      "responses": [
+        "High winds can create dangerous waves and currents, so it's important to stay informed.",
+        "Strong winds can generate hazardous waves and rip currents, making it crucial to stay updated on wind conditions before visiting the beach."
+      ]
+    },
+    {
+      "tag": "weather_alerts",
+      "patterns": [
+        "Are there any weather alerts?",
+        "Will I receive alerts for severe weather conditions at the beach?"
+      ],
+      "responses": [
+        "You will receive alerts for any severe weather conditions affecting the beaches.",
+        "If there are any severe weather alerts or warnings for the beaches, you will receive notifications through the app."
+      ]
+    },
+    {
+      "tag": "weather_forecast",
+      "patterns": [
+        "What is the forecast for the beach today?",
+        "Can you provide the weather forecast for the beach?"
+      ],
+      "responses": [
+        "You can check the app for the latest weather forecast for your chosen beach.",
+        "To view the weather forecast for a specific beach, please search for it in the app or provide the beach name."
+      ]
+    },
+    {
+      "tag": "weather_impact",
+      "patterns": [
+        "How do weather conditions impact beach activities?",
+        "What are the effects of weather on beach enjoyment?"
+      ],
+      "responses": [
+        "Weather conditions can affect the safety and enjoyment of beach activities.",
+        "Factors like temperature, wind, and precipitation can influence the safety and overall experience of beach activities such as swimming, sunbathing, and water sports."
+      ]
+    },
+    {
+      "tag": "sunburn_risk",
+      "patterns": [
+        "Can I get sunburned even on a cloudy day at the beach?",
+        "Is sunscreen necessary on overcast days at the beach?"
+      ],
+      "responses": [
+        "Yes, UV rays can still penetrate clouds, so sunscreen is essential even on cloudy days.",
+        "Even on cloudy days, UV rays can still reach the earth's surface and cause sunburn. It's recommended to apply sunscreen regularly, regardless of the weather conditions."
+      ]
+    },
+    {
+      "tag": "ocean_alerts_definition",
+      "patterns": [
+        "What are ocean alerts?",
+        "Can you explain what ocean alerts are?"
+      ],
+      "responses": [
+        "Ocean alerts inform you about dangerous conditions like high waves or currents.",
+        "Ocean alerts are notifications that provide information about potentially hazardous ocean conditions, such as high waves, strong currents, or other threats to beach safety."
+      ]
+    },
+    {
+      "tag": "dangerous_conditions_notification",
+      "patterns": [
+        "How do I know if there are dangerous ocean conditions?",
+        "Will I be notified about dangerous ocean conditions?"
+      ],
+      "responses": [
+        "You will receive notifications for any ocean alerts affecting your chosen beach.",
+        "If there are any dangerous ocean conditions, such as high waves or rip currents, you will receive alerts through the app for the beaches you have selected."
+      ]
+    },
+    {
+      "tag": "tsunami_alert_response",
+      "patterns": [
+        "What should I do during a tsunami alert?",
+        "How should I respond in case of a tsunami warning?"
+      ],
+      "responses": [
+        "During a tsunami alert, move to higher ground immediately and follow local emergency instructions.",
+        "If a tsunami alert is issued, the safest action is to move away from the coastline and seek higher ground immediately. Follow any instructions provided by local authorities and emergency services."
+      ]
+    },
+    {
+      "tag": "ocean_alert_types",
+      "patterns": [
+        "What types of ocean alerts are there?",
+        "Can you list the different types of ocean alerts?"
+      ],
+      "responses": [
+        "Ocean alerts cover conditions such as rip currents, high surf, and storm surges.",
+        "The main types of ocean alerts include notifications for rip currents, high surf conditions, storm surges, and other potentially hazardous ocean phenomena."
+      ]
+    },
+    {
+      "tag": "ocean_alert_accuracy",
+      "patterns": [
+        "How accurate are ocean alerts?",
+        "What is the reliability of ocean alerts?"
+      ],
+      "responses": [
+        "Ocean alerts are based on data from multiple sources and are highly accurate.",
+        "Ocean alerts are generated using data from various reliable sources, ensuring a high level of accuracy in predicting and notifying about dangerous ocean conditions."
+      ]
+    },
+    {
+      "tag": "location-based_alerts",
+      "patterns": [
+        "Will I receive alerts for my current location?",
+        "Do I need to specify a beach location to receive alerts?"
+      ],
+      "responses": [
+        "Yes, if you allow location access, you will receive alerts for your current beach location.",
+        "If you grant location permissions, you will automatically receive alerts for the beaches closest to your current location. You can also manually select specific beaches to monitor."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the beach break up with the ocean? Because it found someone deeper!",
+        "What did the sand say to the tide? I can't wait to see you again!"
+      ]
+    }
+  ]
+}
